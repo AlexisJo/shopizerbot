@@ -38,7 +38,7 @@ public class CategoryTest {
 	
 	@Test
 	public void test() throws InterruptedException {
-		driver.get("http://192.168.56.1:9999/shopizer");
+		driver.get("http://192.168.102.121:9999/shopizer");
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		
 		WelcomePage page_welcome = PageFactory.initElements(driver, WelcomePage.class);
@@ -51,7 +51,7 @@ public class CategoryTest {
 		
 		String URL = driver.getCurrentUrl();
 		logger.info("Checking if sub-category was accessed correctly");
-		assertEquals(URL, "http://192.168.56.1:9999/shopizer/shop/category/night-tables.html/ref=c:100" );
+		assertEquals(URL, "http://192.168.102.121:9999/shopizer/shop/category/night-tables.html/ref=c:100" );
 		
 		Thread.sleep(2000);
 		
