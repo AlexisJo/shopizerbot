@@ -201,3 +201,22 @@
 2021-03-09 18:26:04 [INFO ] CategoryPage:46 - Checking if product's quantity is correct
 2021-03-09 18:26:04 [INFO ] CategoryPage:62 - Checking if total price of one product is correct
 2021-03-09 18:26:04 [INFO ] CategoryPage:77 - Checking if total price in cart is correct
+2021-03-09 18:49:39 [INFO ] CategoryPage:69 - Checking if name is correct
+2021-03-09 18:49:39 [INFO ] CategoryPage:55 - Checking if unit price is correct
+2021-03-09 18:49:39 [INFO ] CategoryPage:62 - Checking if total price of one product is correct
+2021-03-09 18:49:39 [INFO ] CategoryPage:46 - Checking if product's quantity is correct
+2021-03-09 18:49:41 [INFO ] CategoryPage:46 - Checking if product's quantity is correct
+2021-03-09 18:49:41 [INFO ] CategoryPage:62 - Checking if total price of one product is correct
+2021-03-09 18:49:41 [INFO ] CategoryPage:77 - Checking if total price in cart is correct
+2021-03-09 18:49:50 [INFO ] CategoryPage:53 - Checking if sub-category was accessed correctly
+2021-03-09 18:49:53 [INFO ] CategoryPage:60 - Checking one product display
+2021-03-09 18:49:54 [INFO ] CategoryPage:62 - Checking one product name
+2021-03-09 18:49:54 [INFO ] CategoryPage:64 - Checking one product price
+2021-03-09 18:49:54 [INFO ] CategoryPage:66 - Checking one product presence which should disapear after filter
+2021-03-09 18:49:54 [INFO ] CategoryPage:68 - Applying filter
+2021-03-09 18:50:07 [INFO ] CategoryPage:73 - Checking one product display
+2021-03-09 18:50:09 [INFO ] CategoryPage:83 - Acces one product display page
+2021-03-09 18:50:10 [INFO ] CategoryPage:85 - Checking conformity between PDP and PLP info
+2021-03-09 18:50:11 [INFO ] CategoryPage:90 - Checking stars display
+2021-03-09 18:50:11 [INFO ] CategoryPage:60 - There is indeed 5 stars
+2021-03-09 18:50:11 [INFO ] CategoryPage:92 - Checking add to car button is displayed
