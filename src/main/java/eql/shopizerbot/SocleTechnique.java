@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.slf4j.Logger;
 
 public class SocleTechnique {
 	
@@ -38,6 +39,15 @@ public class SocleTechnique {
 	        }
 	    }
 	    return found;
+	}
+	public static boolean isElementPresent(WebElement we, Logger log) {
+		boolean resultat = we.isDisplayed();
+		if (resultat == false) {
+			log.error(we + " indisponible");
+		} else {
+			log.info(we + " présent");
+		}
+		return resultat;
 	}
 	public void waitForBrowserReadystateComplete(WebDriver webDriver) {
 	    for (int a=0; a<20; a++) {

@@ -21,6 +21,9 @@ public class CategoryPage {
 	@FindBy(xpath = "(//div[contains(@class,'product-content')]/a[@href='/shopizer/shop/product/coffee-table-accacia.html'])[1]")
 	public WebElement coffee_table;
 	
+	@FindBy(xpath = "(//div[contains(@class,'product-content')]/a[@href='/shopizer/shop/product/natural-root-console.html'])[1]")
+	public WebElement natural_root;
+	
 	@FindBy(xpath = "//a[contains(@href,'filter')][contains(text(),'Asian')]")
 	public WebElement filter_asian_wood;
 	
@@ -45,7 +48,7 @@ public class CategoryPage {
 	@FindBy(xpath = "(//a[contains(@href,'coffee')]/following-sibling::h4/span[@itemprop= 'price'])[1]")
 	public WebElement price_plp_coffee;
 	
-	public void checkStars() {
+	public void checkStars(WebDriver driver) {
 		boolean test;
 	List<WebElement> all_stars = driver.findElements(By.xpath("//img[@src='/shopizer/resources/img/stars/star-off.png']"));
     int RowCount = all_stars.size();

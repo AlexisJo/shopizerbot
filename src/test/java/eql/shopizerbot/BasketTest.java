@@ -22,7 +22,7 @@ public class BasketTest {
 	WebDriver driver;
 	JavascriptExecutor js = (JavascriptExecutor) driver;  
 	
-	String BROWSER = "Chrome";//System.getProperty("browser");
+	String BROWSER = System.getProperty("browser");
 	@Before
 	public void setup() {
 		driver = SocleTechnique.choisirNavigateur(BROWSER);

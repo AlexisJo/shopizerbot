@@ -36,14 +36,14 @@ public class BasketPage {
 		
 		driver.findElement(By.xpath("(//*[contains(text(),'"+product+"')]/following::input[contains(@class,'quantity')])[1]")).clear();
 		driver.findElement(By.xpath("(//*[contains(text(),'"+product+"')]/following::input[contains(@class,'quantity')])[1]")).sendKeys(quantity);
-		logger.info("Checking if quantity has been changed correctly");
+		//logger.info("Checking if quantity has been changed correctly");
 		//assertEquals(driver.findElement(By.xpath("(//*[contains(text(),'"+product+"')]/following::input[contains(@class,'quantity')])[1]")).getText(), quantity);
 	}
 	
 	public void checkProductQuantity (String product, String quantity, WebDriver driver) {
 		
 		//driver.findElement(By.xpath("(//*[contains(text(),'"+product+"')]/following::input[contains(@class,'quantity')])[1]")).sendKeys(quantity);
-		logger.info("Checking if quantity is correct");
+		logger.info("Checking if product's quantity is correct");
 		System.out.println(driver.findElement(By.xpath("(//*[contains(text(),'"+product+"')]/following::input[contains(@class,'quantity')])[1]")).getAttribute("value").toString());
 		assertEquals(driver.findElement(By.xpath("(//*[contains(text(),'"+product+"')]/following::input[contains(@class,'quantity')])[1]")).getAttribute("value"), quantity);
 		
@@ -52,14 +52,14 @@ public class BasketPage {
 	public void checkProductPrice (String product, String price, WebDriver driver) {
 		
 		//driver.findElement(By.xpath("(//*[contains(text(),'"+product+"')]/following::input[contains(@class,'quantity')])[1]")).sendKeys(quantity);
-		logger.info("Checking if price is correct");
+		logger.info("Checking if unit price is correct");
 		assertEquals(driver.findElement(By.xpath("//*[contains(text(),'"+product+"')]/ancestor::td/following-sibling::td[contains(@data-th, 'Prix')]")).getText(), price);
 	}
 	
 	public void checkTotalOneProductPrice (String product, String price, WebDriver driver) {
 		
 		//driver.findElement(By.xpath("(//*[contains(text(),'"+product+"')]/following::input[contains(@class,'quantity')])[1]")).sendKeys(quantity);
-		logger.info("Checking if price is correct");
+		logger.info("Checking if total price of one product is correct");
 		assertEquals(driver.findElement(By.xpath("//*[contains(text(),'"+product+"')]/ancestor::td/following-sibling::td[contains(@data-th, 'Total')]")).getText(), price);
 	}
 	
@@ -74,7 +74,7 @@ public class BasketPage {
 	public void checkTotalCart (String price, WebDriver driver) {
 		
 		//driver.findElement(By.xpath("(//*[contains(text(),'"+product+"')]/following::input[contains(@class,'quantity')])[1]")).sendKeys(quantity);
-		logger.info("Checking if price is correct");
+		logger.info("Checking if total price in cart is correct");
 		assertEquals(cart_total.getText(), price);
 	}
 }
