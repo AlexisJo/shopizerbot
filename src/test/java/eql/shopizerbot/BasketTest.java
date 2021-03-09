@@ -37,7 +37,7 @@ public class BasketTest {
 	
 	@Test
 	public void test() throws InterruptedException {
-		driver.get("http://192.168.102.120:9999/shopizer");
+		driver.get("http://192.168.56.1:9999/shopizer");
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		
 		WelcomePage page_welcome = PageFactory.initElements(driver, WelcomePage.class);
@@ -69,7 +69,7 @@ public class BasketTest {
 		
 		page_basket.checkout.click();
 		String URL = driver.getCurrentUrl();
-		assertEquals(URL, "http://192.168.102.120:9999/shopizer/shop/order/checkout.html" );
+		assertEquals(URL, "http://192.168.56.1:9999/shopizer/shop/order/checkout.html" );
 		page_basket.submit_order.isDisplayed();
 		
 		Thread.sleep(2000);
