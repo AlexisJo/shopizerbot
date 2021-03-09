@@ -18,7 +18,7 @@ public class CategoryPage {
 	@FindBy(xpath = "//a[@href='/shopizer/shop/product/coffee-table-accacia.html']/following-sibling::div[@class='store-btn']/descendant::a[@class='addToCart']")
 	public WebElement coffee_table_add;
 	
-	@FindBy(xpath = "(//div[contains(@class,'product-content')]/a[@href='/shopizer/shop/product/coffee-table-accacia.html'])[1]")
+	@FindBy(xpath = "(//div[contains(@class,'product-content')]/a[@href='/shopizer/shop/product/coffee-table-accacia.html'])[1]/h3")
 	public WebElement coffee_table;
 	
 	@FindBy(xpath = "(//div[contains(@class,'product-content')]/a[@href='/shopizer/shop/product/natural-root-console.html'])[1]")
@@ -42,6 +42,9 @@ public class CategoryPage {
 	@FindBy(xpath = "//button[contains(@class, 'addToCart')]")
 	public WebElement add_to_cart;
 	
+	@FindBy(xpath = "(//div[@item-name='Coffee table Accacia']/descendant::a[contains(@class, 'addToCart')])[1]")
+	public WebElement add_to_cart_coffee_table;
+	
 	@FindBy(xpath = "(//h3[contains(text(), 'Coffee table Accacia')])[1]")
 	public WebElement title_plp_coffee;
 	
@@ -54,11 +57,11 @@ public class CategoryPage {
     int RowCount = all_stars.size();
     if (RowCount == 5) {
     	test = true;
-    	logger.info("Il y a bien 5 étoiles");
+    	logger.info("There is indeed 5 stars");
     }
     else {
     	test = false;
-    	logger.info("Il n'y a pas 5 étoiles");
+    	logger.info("The amount of stars is incorrect");
     }
     assertTrue(test);
     }

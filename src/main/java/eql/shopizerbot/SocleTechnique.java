@@ -41,13 +41,18 @@ public class SocleTechnique {
 	    return found;
 	}
 	public static boolean isElementPresent(WebElement we, Logger log) {
+		try {
 		boolean resultat = we.isDisplayed();
 		if (resultat == false) {
 			log.error(we + " indisponible");
 		} else {
 			log.info(we + " présent");
+		}return resultat;
 		}
-		return resultat;
+		catch (org.openqa.selenium.NoSuchElementException e) {
+	        return false;
+	    }
+		
 	}
 	public void waitForBrowserReadystateComplete(WebDriver webDriver) {
 	    for (int a=0; a<20; a++) {

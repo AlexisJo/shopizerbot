@@ -61,3 +61,143 @@
 2021-03-08 18:28:31 [INFO ] CategoryPage:62 - Checking if price is correct
 2021-03-08 18:28:31 [INFO ] CategoryPage:77 - Checking if price is correct
 2021-03-09 16:10:56 [INFO ] CategoryPage:57 - Il y a bien 5 étoiles
+2021-03-09 17:01:58 [INFO ] CategoryPage:52 - Checking if sub-category was accessed correctly
+2021-03-09 17:04:51 [INFO ] CategoryPage:52 - Checking if sub-category was accessed correctly
+2021-03-09 17:06:24 [INFO ] CategoryPage:52 - Checking if sub-category was accessed correctly
+2021-03-09 17:06:27 [INFO ] CategoryPage:59 - Checking one product display
+2021-03-09 17:06:27 [INFO ] CategoryPage:61 - Checking one product name
+2021-03-09 17:06:27 [INFO ] CategoryPage:63 - Checking one product price
+2021-03-09 17:06:27 [INFO ] CategoryPage:65 - Checking one product presence which should disapear after filter
+2021-03-09 17:06:27 [INFO ] CategoryPage:67 - Applying filter
+2021-03-09 17:11:12 [INFO ] CategoryPage:52 - Checking if sub-category was accessed correctly
+2021-03-09 17:11:14 [INFO ] CategoryPage:59 - Checking one product display
+2021-03-09 17:11:14 [INFO ] CategoryPage:61 - Checking one product name
+2021-03-09 17:11:14 [INFO ] CategoryPage:63 - Checking one product price
+2021-03-09 17:11:14 [INFO ] CategoryPage:65 - Checking one product presence which should disapear after filter
+2021-03-09 17:11:14 [INFO ] CategoryPage:67 - Applying filter
+2021-03-09 17:53:00 [INFO ] CategoryPage:52 - Checking if sub-category was accessed correctly
+2021-03-09 17:53:02 [INFO ] CategoryPage:59 - Checking one product display
+2021-03-09 17:53:02 [INFO ] CategoryPage:61 - Checking one product name
+2021-03-09 17:53:02 [INFO ] CategoryPage:63 - Checking one product price
+2021-03-09 17:53:02 [INFO ] CategoryPage:65 - Checking one product presence which should disapear after filter
+2021-03-09 17:53:02 [INFO ] CategoryPage:67 - Applying filter
+2021-03-09 17:53:43 [INFO ] CategoryPage:52 - Checking if sub-category was accessed correctly
+2021-03-09 17:53:46 [INFO ] CategoryPage:59 - Checking one product display
+2021-03-09 17:53:46 [INFO ] CategoryPage:61 - Checking one product name
+2021-03-09 17:53:46 [INFO ] CategoryPage:63 - Checking one product price
+2021-03-09 17:53:46 [INFO ] CategoryPage:65 - Checking one product presence which should disapear after filter
+2021-03-09 17:53:46 [INFO ] CategoryPage:67 - Applying filter
+2021-03-09 17:54:15 [INFO ] CategoryPage:52 - Checking if sub-category was accessed correctly
+2021-03-09 17:54:17 [INFO ] CategoryPage:59 - Checking one product display
+2021-03-09 17:54:17 [INFO ] CategoryPage:61 - Checking one product name
+2021-03-09 17:54:18 [INFO ] CategoryPage:63 - Checking one product price
+2021-03-09 17:54:18 [INFO ] CategoryPage:65 - Checking one product presence which should disapear after filter
+2021-03-09 17:54:18 [INFO ] CategoryPage:67 - Applying filter
+2021-03-09 17:59:51 [INFO ] CategoryPage:52 - Checking if sub-category was accessed correctly
+2021-03-09 17:59:53 [INFO ] CategoryPage:59 - Checking one product display
+2021-03-09 17:59:53 [INFO ] CategoryPage:61 - Checking one product name
+2021-03-09 17:59:54 [INFO ] CategoryPage:63 - Checking one product price
+2021-03-09 17:59:54 [INFO ] CategoryPage:65 - Checking one product presence which should disapear after filter
+2021-03-09 17:59:54 [INFO ] CategoryPage:67 - Applying filter
+2021-03-09 18:00:06 [INFO ] CategoryPage:72 - Checking one product display
+2021-03-09 18:00:06 [INFO ] CategoryPage:79 - Acces one product display page
+2021-03-09 18:04:37 [INFO ] CategoryPage:53 - Checking if sub-category was accessed correctly
+2021-03-09 18:04:40 [INFO ] CategoryPage:60 - Checking one product display
+2021-03-09 18:04:40 [INFO ] CategoryPage:62 - Checking one product name
+2021-03-09 18:04:40 [INFO ] CategoryPage:64 - Checking one product price
+2021-03-09 18:04:40 [INFO ] CategoryPage:66 - Checking one product presence which should disapear after filter
+2021-03-09 18:04:40 [INFO ] CategoryPage:68 - Applying filter
+2021-03-09 18:04:52 [INFO ] CategoryPage:73 - Checking one product display
+2021-03-09 18:04:57 [INFO ] CategoryPage:83 - Acces one product display page
+2021-03-09 18:07:24 [INFO ] CategoryPage:53 - Checking if sub-category was accessed correctly
+2021-03-09 18:07:27 [INFO ] CategoryPage:60 - Checking one product display
+2021-03-09 18:07:27 [INFO ] CategoryPage:62 - Checking one product name
+2021-03-09 18:07:27 [INFO ] CategoryPage:64 - Checking one product price
+2021-03-09 18:07:27 [INFO ] CategoryPage:66 - Checking one product presence which should disapear after filter
+2021-03-09 18:07:27 [INFO ] CategoryPage:68 - Applying filter
+2021-03-09 18:07:39 [INFO ] CategoryPage:73 - Checking one product display
+2021-03-09 18:11:02 [INFO ] CategoryPage:53 - Checking if sub-category was accessed correctly
+2021-03-09 18:11:04 [INFO ] CategoryPage:60 - Checking one product display
+2021-03-09 18:11:04 [INFO ] CategoryPage:62 - Checking one product name
+2021-03-09 18:11:04 [INFO ] CategoryPage:64 - Checking one product price
+2021-03-09 18:11:04 [INFO ] CategoryPage:66 - Checking one product presence which should disapear after filter
+2021-03-09 18:11:04 [INFO ] CategoryPage:68 - Applying filter
+2021-03-09 18:11:16 [INFO ] CategoryPage:73 - Checking one product display
+2021-03-09 18:12:27 [INFO ] CategoryPage:53 - Checking if sub-category was accessed correctly
+2021-03-09 18:12:30 [INFO ] CategoryPage:60 - Checking one product display
+2021-03-09 18:12:30 [INFO ] CategoryPage:62 - Checking one product name
+2021-03-09 18:12:30 [INFO ] CategoryPage:64 - Checking one product price
+2021-03-09 18:12:30 [INFO ] CategoryPage:66 - Checking one product presence which should disapear after filter
+2021-03-09 18:12:30 [INFO ] CategoryPage:68 - Applying filter
+2021-03-09 18:12:42 [INFO ] CategoryPage:73 - Checking one product display
+2021-03-09 18:12:45 [INFO ] CategoryPage:82 - Acces one product display page
+2021-03-09 18:13:35 [INFO ] CategoryPage:53 - Checking if sub-category was accessed correctly
+2021-03-09 18:13:37 [INFO ] CategoryPage:60 - Checking one product display
+2021-03-09 18:13:37 [INFO ] CategoryPage:62 - Checking one product name
+2021-03-09 18:13:37 [INFO ] CategoryPage:64 - Checking one product price
+2021-03-09 18:13:38 [INFO ] CategoryPage:66 - Checking one product presence which should disapear after filter
+2021-03-09 18:13:38 [INFO ] CategoryPage:68 - Applying filter
+2021-03-09 18:13:50 [INFO ] CategoryPage:73 - Checking one product display
+2021-03-09 18:13:55 [INFO ] CategoryPage:83 - Acces one product display page
+2021-03-09 18:17:34 [INFO ] CategoryPage:53 - Checking if sub-category was accessed correctly
+2021-03-09 18:17:36 [INFO ] CategoryPage:60 - Checking one product display
+2021-03-09 18:17:36 [INFO ] CategoryPage:62 - Checking one product name
+2021-03-09 18:17:36 [INFO ] CategoryPage:64 - Checking one product price
+2021-03-09 18:17:36 [INFO ] CategoryPage:66 - Checking one product presence which should disapear after filter
+2021-03-09 18:17:36 [INFO ] CategoryPage:68 - Applying filter
+2021-03-09 18:17:49 [INFO ] CategoryPage:73 - Checking one product display
+2021-03-09 18:17:53 [INFO ] CategoryPage:83 - Acces one product display page
+2021-03-09 18:17:54 [INFO ] CategoryPage:85 - Checking conformity between PDP and PLP info
+2021-03-09 18:17:54 [INFO ] CategoryPage:90 - Checking stars display
+2021-03-09 18:17:54 [INFO ] CategoryPage:60 - Il y a bien 5 étoiles
+2021-03-09 18:17:54 [INFO ] CategoryPage:92 - Checking add to car button is displayed
+2021-03-09 18:18:11 [INFO ] CategoryPage:53 - Checking if sub-category was accessed correctly
+2021-03-09 18:18:14 [INFO ] CategoryPage:60 - Checking one product display
+2021-03-09 18:18:14 [INFO ] CategoryPage:62 - Checking one product name
+2021-03-09 18:18:14 [INFO ] CategoryPage:64 - Checking one product price
+2021-03-09 18:18:14 [INFO ] CategoryPage:66 - Checking one product presence which should disapear after filter
+2021-03-09 18:18:14 [INFO ] CategoryPage:68 - Applying filter
+2021-03-09 18:18:26 [INFO ] CategoryPage:73 - Checking one product display
+2021-03-09 18:18:31 [INFO ] CategoryPage:83 - Acces one product display page
+2021-03-09 18:18:31 [INFO ] CategoryPage:85 - Checking conformity between PDP and PLP info
+2021-03-09 18:18:31 [INFO ] CategoryPage:90 - Checking stars display
+2021-03-09 18:18:31 [INFO ] CategoryPage:60 - Il y a bien 5 étoiles
+2021-03-09 18:18:31 [INFO ] CategoryPage:92 - Checking add to car button is displayed
+2021-03-09 18:19:13 [INFO ] CategoryPage:53 - Checking if sub-category was accessed correctly
+2021-03-09 18:19:15 [INFO ] CategoryPage:60 - Checking one product display
+2021-03-09 18:19:16 [INFO ] CategoryPage:62 - Checking one product name
+2021-03-09 18:19:16 [INFO ] CategoryPage:64 - Checking one product price
+2021-03-09 18:19:16 [INFO ] CategoryPage:66 - Checking one product presence which should disapear after filter
+2021-03-09 18:19:16 [INFO ] CategoryPage:68 - Applying filter
+2021-03-09 18:19:28 [INFO ] CategoryPage:73 - Checking one product display
+2021-03-09 18:19:29 [INFO ] CategoryPage:83 - Acces one product display page
+2021-03-09 18:19:29 [INFO ] CategoryPage:85 - Checking conformity between PDP and PLP info
+2021-03-09 18:19:29 [INFO ] CategoryPage:90 - Checking stars display
+2021-03-09 18:19:29 [INFO ] CategoryPage:60 - Il y a bien 5 étoiles
+2021-03-09 18:19:29 [INFO ] CategoryPage:92 - Checking add to car button is displayed
+2021-03-09 18:21:34 [INFO ] CategoryPage:53 - Checking if sub-category was accessed correctly
+2021-03-09 18:21:37 [INFO ] CategoryPage:60 - Checking one product display
+2021-03-09 18:21:37 [INFO ] CategoryPage:62 - Checking one product name
+2021-03-09 18:21:38 [INFO ] CategoryPage:64 - Checking one product price
+2021-03-09 18:21:38 [INFO ] CategoryPage:66 - Checking one product presence which should disapear after filter
+2021-03-09 18:21:38 [INFO ] CategoryPage:68 - Applying filter
+2021-03-09 18:21:51 [INFO ] CategoryPage:73 - Checking one product display
+2021-03-09 18:21:53 [INFO ] CategoryPage:83 - Acces one product display page
+2021-03-09 18:21:55 [INFO ] CategoryPage:85 - Checking conformity between PDP and PLP info
+2021-03-09 18:21:55 [INFO ] CategoryPage:90 - Checking stars display
+2021-03-09 18:21:55 [INFO ] CategoryPage:60 - There is indeed 5 stars
+2021-03-09 18:21:55 [INFO ] CategoryPage:92 - Checking add to car button is displayed
+2021-03-09 18:24:12 [INFO ] CategoryPage:69 - Checking if name is correct
+2021-03-09 18:24:13 [INFO ] CategoryPage:55 - Checking if unit price is correct
+2021-03-09 18:24:13 [INFO ] CategoryPage:62 - Checking if total price of one product is correct
+2021-03-09 18:24:13 [INFO ] CategoryPage:46 - Checking if product's quantity is correct
+2021-03-09 18:24:22 [INFO ] CategoryPage:46 - Checking if product's quantity is correct
+2021-03-09 18:24:23 [INFO ] CategoryPage:62 - Checking if total price of one product is correct
+2021-03-09 18:24:23 [INFO ] CategoryPage:77 - Checking if total price in cart is correct
+2021-03-09 18:26:02 [INFO ] CategoryPage:69 - Checking if name is correct
+2021-03-09 18:26:02 [INFO ] CategoryPage:55 - Checking if unit price is correct
+2021-03-09 18:26:02 [INFO ] CategoryPage:62 - Checking if total price of one product is correct
+2021-03-09 18:26:02 [INFO ] CategoryPage:46 - Checking if product's quantity is correct
+2021-03-09 18:26:04 [INFO ] CategoryPage:46 - Checking if product's quantity is correct
+2021-03-09 18:26:04 [INFO ] CategoryPage:62 - Checking if total price of one product is correct
+2021-03-09 18:26:04 [INFO ] CategoryPage:77 - Checking if total price in cart is correct

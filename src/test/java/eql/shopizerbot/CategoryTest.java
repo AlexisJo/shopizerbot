@@ -42,6 +42,7 @@ public class CategoryTest {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		
 		WelcomePage page_welcome = PageFactory.initElements(driver, WelcomePage.class);
+		SocleTechnique page_socle = PageFactory.initElements(driver, SocleTechnique.class);
 		
 		Actions action = new Actions(driver);
 		action.moveToElement(page_welcome.bedroom_cat).perform();
@@ -51,6 +52,8 @@ public class CategoryTest {
 		String URL = driver.getCurrentUrl();
 		logger.info("Checking if sub-category was accessed correctly");
 		assertEquals(URL, "http://192.168.102.120:9999/shopizer/shop/category/night-tables.html/ref=c:100" );
+		
+		Thread.sleep(2000);
 		
 		page_welcome.tables_cat.click();
 		CategoryPage page_cat = PageFactory.initElements(driver, CategoryPage.class);
@@ -63,10 +66,14 @@ public class CategoryTest {
 		logger.info("Checking one product presence which should disapear after filter");
 		assertTrue(page_cat.natural_root.isDisplayed());
 		logger.info("Applying filter");
+		Thread.sleep(2000);
 		page_cat.filter_asian_wood.click();
 		SocleTechnique.isElementPresent(page_cat.natural_root, logger);
 		//assertFalse(page_cat.natural_root.isDisplayed());
 		logger.info("Checking one product display");
+		
+		page_socle.explicitScrollIntoView(driver, page_cat.add_to_cart_coffee_table, false);
+		
 		assertTrue(page_cat.coffee_table.isDisplayed());
 		assertTrue(page_cat.title_plp_coffee.isDisplayed());
 		assertTrue(page_cat.price_plp_coffee.isDisplayed());
